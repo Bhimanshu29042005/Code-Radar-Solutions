@@ -3,6 +3,7 @@
 char* welcome() {
     float n;
     scanf("%f", &n);
+    printf("%f", n);
 }
 
 int main() {
