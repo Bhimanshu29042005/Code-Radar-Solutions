@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-float* welcome(float n) {
-    scanf("%f", &n);
-    printf("%.2f", n);
- 
-}
+int main(){
+    float a;
 
-int main() {
-    printf("%f", welcome());
+    scanf("%f", &a);
+    printf("You entered: %.2f", a);
+
     return 0;
 }
