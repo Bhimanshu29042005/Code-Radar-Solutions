@@ -2,10 +2,10 @@
 
 char* welcome() {
     float n;
-    scanf("%f", n);
+    scanf("%f", &n);
 }
 
 int main() {
-    printf("%s", welcome());
+    printf("%f", welcome());
     return 0;
 }
