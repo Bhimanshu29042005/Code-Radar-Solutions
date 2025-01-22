@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char* welcome(float n) {
+float* welcome(float n) {
     scanf("%f", &n);
     printf("%.2f", n);
  
