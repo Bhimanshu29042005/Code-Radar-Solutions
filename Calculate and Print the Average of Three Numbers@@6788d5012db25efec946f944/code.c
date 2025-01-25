@@ -3,9 +3,9 @@ int main() {
     int a, b, c, avg;
     scanf("%d %d %d", &a, &b, &c);
 
-    avg = a + b + c / 3;
+    avg = a + b + c;
 
-    printf("Average: %d", avg);
+    printf("Average: %d", avg / 3);
 
   
     return 0;
