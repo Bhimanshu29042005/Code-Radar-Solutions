@@ -5,7 +5,7 @@ int main() {
     scanf("%f %f", &a, &b); 
 
     pro = a * b;
-    printf("%f", pro);
+    printf("%.2f", pro);
   
     return 0;
 }
