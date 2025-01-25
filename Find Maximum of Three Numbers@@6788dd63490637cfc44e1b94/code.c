@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-   int a, b, c, max;
+   int a, b, c;
 
-   max = a;
+   int max = a;
    if(a > b){
     max = a;
    }
