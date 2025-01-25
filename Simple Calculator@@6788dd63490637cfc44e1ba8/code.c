@@ -6,13 +6,13 @@ int main() {
     if(c == '+'){
         sum = a + b;
     }
-    else if(c == '-'){
+    if(c == '-'){
         sum = a - b;
     }
-    else if(c == '*'){
+    if(c == '*'){
         sum = a * b;
     }
-    else if(c == '/'){
+    if(c == '/'){
         sum = a / b;
     }
     printf("%d", sum);
