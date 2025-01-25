@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main() {
-    int r;
+    float r;
     double area;
     const float pi = 3.14;
 
-    scanf("%d", &r);
+    scanf("%f", &r);
     area = pi * r * r;
     printf("Area: %.2lf", area);
 
