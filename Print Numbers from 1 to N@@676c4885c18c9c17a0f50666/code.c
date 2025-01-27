@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main() {
-    int n;
-    for(int i = 1; i <= n; i++){
-        printf("%d ", i);
+    int n = 1;
+    int a;
+    while(n < a ){
+        printf("%d ", n);
+        n++;
     }
-    
     return 0;
 }
