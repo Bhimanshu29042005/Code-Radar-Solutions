@@ -8,8 +8,7 @@ int main() {
 
     for(int i = 1; i <= a; i++){
         scanf("%d", arr[i]);
-    }
-    for(int i = 1; i <= a; i++){
+    
         if(arr[i] % 2 == 0){
             even++;
         }
