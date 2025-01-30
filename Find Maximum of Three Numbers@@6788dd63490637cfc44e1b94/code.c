@@ -6,10 +6,10 @@ int main() {
    if(a > b){
     max = a;
    }
-   if(b > max){
+   else if(b > max){
     max = b;
    }
-   if(c > max){
+   else if(c > max){
     max = c;
    }
    printf("%d", max)
