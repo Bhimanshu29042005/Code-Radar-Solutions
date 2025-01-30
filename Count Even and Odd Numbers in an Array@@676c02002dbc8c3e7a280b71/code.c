@@ -7,7 +7,9 @@ int main() {
     int even = 0;
 
     for(int i = 1; i <= a; i++){
-        scanf("%d", arr[i]);
+        int ele;
+        scanf("%d", &ele);
+        arr[i] = ele;
     
         if(arr[i] % 2 == 0){
             even++;
