@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int arr[];
+    int arr[100];
     int a;
     int odd = 0;
     int even = 0;
