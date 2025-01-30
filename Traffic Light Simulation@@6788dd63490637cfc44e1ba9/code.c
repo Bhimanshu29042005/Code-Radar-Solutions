@@ -4,10 +4,10 @@ int main() {
     if(a == 'R'){
         printf("Stop");
     }
-    if(a == "G"){
+    else if(a == "G"){
         printf("Go");
     }
-    if(a == "Y"){
+    else if(a == "Y"){
         printf("Slow Down");
     }
 
