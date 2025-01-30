@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main() {
-    
-    int arr[a];
     int a;
+    int arr[a];
     int odd = 0;
     int even = 0;
     scanf("%d", &a);
