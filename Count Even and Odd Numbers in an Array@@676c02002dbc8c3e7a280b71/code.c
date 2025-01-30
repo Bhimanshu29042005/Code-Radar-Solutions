@@ -5,7 +5,7 @@ int main() {
     int odd = 0;
     int even = 0;
 
-    for(int = 1; i <= a; i++){
+    for(int i = 1; i <= a; i++){
         scanf("%d", arr[i]);
     }
     for(int i = 1; i <= a; i++){
