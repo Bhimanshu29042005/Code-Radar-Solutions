@@ -4,6 +4,7 @@ int main() {
     int a;
     int odd = 0;
     int even = 0;
+    scanf("%d", &a);
 
     for(int i = 1; i <= a; i++){
         scanf("%d", arr[i]);
