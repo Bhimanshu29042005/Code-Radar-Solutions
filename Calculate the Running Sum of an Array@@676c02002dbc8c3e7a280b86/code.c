@@ -5,7 +5,7 @@ int main(){
     int arr[a];
 
     for(int i = 0; i < a; i++ ){
-        int ele
+        int ele;
         scanf("%d", &ele);
         arr[i] = ele;
         sum += ele;
