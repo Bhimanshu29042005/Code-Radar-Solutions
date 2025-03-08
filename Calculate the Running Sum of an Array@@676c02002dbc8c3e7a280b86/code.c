@@ -9,8 +9,9 @@ int main(){
         scanf("%d", &ele);
         arr[i] = ele;
         sum += ele;
+        printf("%d", ele);
         
     }
-    printf("%d", ele);
+    
 
 }
