@@ -9,7 +9,7 @@ int main(){
         scanf("%d", &ele);
         arr[i] = ele;
         sum += arr[ele];
-        printf("%d ", ele);
+        printf("%d ", sum);
         
     }
     
