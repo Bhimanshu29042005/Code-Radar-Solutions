@@ -8,7 +8,7 @@ int main(){
         int ele;
         scanf("%d", &ele);
         arr[i] = ele;
-        sum += arr[ele];
+        sum += arr[i];
         printf("%d ", sum);
         
     }
