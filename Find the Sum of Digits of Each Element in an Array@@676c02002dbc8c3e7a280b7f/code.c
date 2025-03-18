@@ -15,10 +15,11 @@ int main() {
             n = arr[i] % 10;
             sum += n;
             n = n/ 10;
-            i++;
+            
 
 
         }
+        i++;
     }
     printf("%d", sum);
    
