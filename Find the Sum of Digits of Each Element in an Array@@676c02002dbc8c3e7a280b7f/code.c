@@ -10,10 +10,11 @@ int main() {
         
     }
     for(int i = 0; i < a; i++){
-        while(m != 0){
-            n = m % 10;
+        while(arr[i] != 0){
+            n = arr[i] % 10;
             sum += n;
             n = n/ 10;
+            i++;
 
 
         }
